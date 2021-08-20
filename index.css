@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: block;
+  justify-content: center;
+  padding: 2rem;
+  background-color: wheat;
+  height: 90vh;
+}
+.heading {
+  background-color: rgb(255, 123, 0);
+  color: white;
+  height: 10vh;
+  border: 2px solid white;
+  text-align: center;
+  margin: 0 0 1rem 0rem;
+  border-radius: 3rem;
+  box-shadow: 0 0.5rem 1rem rgb(231, 152, 152);
+}
+.ques {
+  padding: 1rem;
+}
+.codeBox {
+  background-color: rgb(255, 254, 255);
+  height: 50vh;
+  margin: 1rem 0rem;
+
+  /* box-shadow: 0 1rem 1rem rgba(0,0,0,0.4); */
+}
+.outputSpace {
+  background-color: rgb(10, 10, 10);
+  overflow-y: scroll;
+  color: white;
+  height: 19vh;
+  border-radius: 3px;
+  margin: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+textarea {
+  width: 1238px;
+  max-width: 100%;
+  /* width:auto; */
+  outline: none;
+  resize: none;
+  margin: 12px 0 0 0;
+}
+textarea:focus {
+  border: 1px solid rgb(0, 225, 255);
+  box-shadow: 0 0 10px #719ece;
+}
+.compile {
+  color: black;
+  background-color: rgb(248, 185, 10);
+  padding: 10px 25px;
+  border: 1px solid rgb(255, 187, 0);
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 10px 0;
+  font-size: large;
+  font-weight: 400;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+.compile:focus {
+  border: 1px solid rgb(255, 187, 0);
+  box-shadow: 0 10px 10px rgb(255, 123, 0);
+}
+.languageDiv {
+  margin: 5px 0 0 0;
+  height: 7vh;
+  display: flex;
+  background-color: rgb(214, 240, 240);
+  justify-content: space-between;
+  padding: 8px 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+.langOptions {
+  padding: 8px 17px;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
